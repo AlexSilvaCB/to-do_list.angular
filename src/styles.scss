@@ -14,8 +14,20 @@ body{
 
 //classes
 .container{
-    width: 350px;
+    width: 300px;
     margin: 50px auto;
     border: 10px solid #fff;
     border-radius: 25px;
+}
+
+ul{
+    list-style: none;
+}
+
+textarea:focus, input:focus, button{
+    outline: none;
+}
+
+button{
+    cursor: pointer;
 }
